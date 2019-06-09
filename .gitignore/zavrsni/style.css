@@ -1,0 +1,96 @@
+@charset "utf-8";
+html,
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 1vw;
+  background: white;
+}
+header {
+  position:absolute;
+  padding: 2%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:rgba(0,0,0,0.2);
+}
+nav {
+  
+
+  
+  
+  opacity: .95;
+  background: #fff;
+  position: relative;
+  display: block ;
+  float: left;
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+	margin-top:5px;
+  
+  height: 30%;
+}
+.hero {
+  position: relative; 
+}
+.intro {
+  position: relative;
+  color: #343144;
+  background: #fff;
+  height: 500px;
+  padding: 9em 6em 5em;
+}
+
+p {
+text-align: center;
+font-size:16px;
+
+}
+
+h1 {
+text-align: center;
+font-size:36px;
+
+
+}
+video{
+	width:100%;
+	heigt:100%;
+}
+
+.slika1{
+	width:5em;
+	height:3em;
+	float: right;
+	
+}
+footer {
+  margin-top: -1em;
+  padding: 6em 0 1em;
+  height: 10em;
+	background-color: #000000;
+	   
+}
+.slika2{
+	margin-top:65px;
+	margin-left:35px;
+	width:3em;
+	height:3em;
+	float: left;
+	padding: 0px;
+}
+a{
+text-decoration: none;
+color:#343144;
+margin-left:0.5em;
+	
+	
+}
